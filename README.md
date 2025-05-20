@@ -2,7 +2,46 @@
 
 ## Overview
 
-This Network Root Cause Analysis Tool is a comprehensive suite designed for network administrators to monitor, analyze, and troubleshoot network issues. The application combines real-time packet analysis, anomaly detection, device scanning, and reporting capabilities in a unified interface.
+This Network Root Cause Analysis Tool is a comprehensive suite designed for network administrators and IT professionals to efficiently monitor, analyze, and troubleshoot network issues. The application combines advanced network monitoring capabilities with machine learning-based anomaly detection to provide a complete network management solution.
+
+### What Problem Does It Solve?
+
+Network administrators face numerous challenges in maintaining network health and security:
+- Difficulty in identifying the root cause of network issues quickly
+- Lack of real-time visibility into network traffic and device behavior
+- Challenges in detecting and responding to network anomalies
+- Time-consuming manual network scanning and reporting processes
+
+### Key Benefits
+
+1. **Unified Monitoring Interface**
+   - Single dashboard for all network monitoring needs
+   - Real-time visibility into network performance
+   - Intuitive visualization of network metrics
+
+2. **Automated Issue Detection**
+   - Machine learning-based anomaly detection
+   - Instant SMS alerts for critical issues
+   - Proactive identification of potential problems
+
+3. **Enhanced Security**
+   - Continuous network vulnerability scanning
+   - Device fingerprinting and tracking
+   - Unauthorized device detection
+
+4. **Time-Saving Features**
+   - Automated report generation
+   - Quick troubleshooting workflows
+   - Batch scanning capabilities
+
+### Technical Innovation
+
+The tool leverages several cutting-edge technologies:
+- Machine Learning for anomaly detection
+- Real-time packet analysis using advanced filtering
+- Automated vulnerability assessment
+- WiFi signal strength analysis and optimization
+- Integration with Twilio for instant notifications
 
 ![Project Poster](images/Final_Year_Project.png)
 
@@ -16,6 +55,46 @@ This Network Root Cause Analysis Tool is a comprehensive suite designed for netw
 - **SMS Alert System**: Receive notifications when network anomalies are detected
 - **Reporting System**: Generate comprehensive PDF reports of network status and issues
 - **Network Troubleshooting**: Tools to diagnose and resolve common network problems
+
+## Technical Architecture
+
+### Core Components
+
+1. **Network Analysis Engine**
+   - Built with Python and Scapy for packet capture and analysis
+   - Real-time traffic monitoring and filtering
+   - Deep packet inspection capabilities
+
+2. **Machine Learning Module**
+   - Anomaly detection using advanced ML algorithms
+   - Pattern recognition for network behavior analysis
+   - Continuous learning from network traffic patterns
+
+3. **Security Scanner**
+   - Port scanning and vulnerability assessment
+   - Device fingerprinting and OS detection
+   - Network topology mapping
+
+4. **Alert System**
+   - SMS notifications via Twilio integration
+   - Configurable alert thresholds
+   - Alert history tracking and analysis
+
+5. **Reporting Engine**
+   - PDF report generation with detailed metrics
+   - Historical data analysis
+   - Customizable report templates
+
+### Technology Stack
+
+- **Frontend**: PyQt6 for the graphical user interface
+- **Backend**: Python 3.9+ for core functionality
+- **Libraries**:
+  - Scapy for packet manipulation
+  - Pandas for data analysis
+  - Matplotlib for data visualization
+  - NumPy for numerical computations
+  - Twilio for SMS notifications
 
 ## System Requirements
 
