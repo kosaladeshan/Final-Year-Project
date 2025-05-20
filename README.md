@@ -2,13 +2,13 @@
 
 ## Overview
 
-This Network Root Cause Analysis Tool is a comprehensive suite designed for network administrators and IT professionals to efficiently monitor, analyze, and troubleshoot network issues. The application combines advanced network monitoring capabilities with machine learning-based anomaly detection to provide a complete network management solution.
+ This Network Root Cause Analysis Tool is a comprehensive suite designed for network administrators and IT professionals to efficiently monitor, analyse, and troubleshoot network issues. The application combines advanced network monitoring capabilities with machine learning-based anomaly detection to provide a complete network management solution.
 
 ### What Problem Does It Solve?
 
 Network administrators face numerous challenges in maintaining network health and security:
 - Difficulty in identifying the root cause of network issues quickly
-- Lack of real-time visibility into network traffic and device behavior
+- Lack of real-time visibility into network traffic and device behaviour
 - Challenges in detecting and responding to network anomalies
 - Time-consuming manual network scanning and reporting processes
 
@@ -17,7 +17,7 @@ Network administrators face numerous challenges in maintaining network health an
 1. **Unified Monitoring Interface**
    - Single dashboard for all network monitoring needs
    - Real-time visibility into network performance
-   - Intuitive visualization of network metrics
+   - Intuitive visualisation of network metrics
 
 2. **Automated Issue Detection**
    - Machine learning-based anomaly detection
@@ -40,15 +40,15 @@ The tool leverages several cutting-edge technologies:
 - Machine Learning for anomaly detection
 - Real-time packet analysis using advanced filtering
 - Automated vulnerability assessment
-- WiFi signal strength analysis and optimization
+- WiFi signal strength analysis and optimisation
 - Integration with Twilio for instant notifications
 
 ![Project Poster](images/Final_Year_Project.png)
 
 ## Features
 
-- **Central Dashboard**: Unified control center for accessing all modules
-- **Real-time Packet Analysis**: Capture and analyze network packets with filtering capabilities
+- **Central Dashboard**: Unified control centre for accessing all modules
+- **Real-time Packet Analysis**: Capture and analyse network packets with filtering capabilities
 - **Network Device Scanner**: Discover devices on your network and scan for vulnerabilities
 - **WiFi Signal Analyzer**: Monitor and analyze wireless networks and signal strength
 - **Anomaly Detection**: Machine learning-based system to identify unusual network behavior
