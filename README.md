@@ -10,7 +10,12 @@ This Network Root Cause Analysis Tool is a comprehensive suite designed for netw
 
 Watch a demonstration of the Network Root Cause Analysis Tool in action:
 
-https://github.com/kosaladeshan/Final-Year-Project/raw/main/videos/demo.mp4
+<video width="100%" controls autoplay>
+  <source src="videos/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+[Direct video link](https://github.com/kosaladeshan/Final-Year-Project/raw/main/videos/demo.mp4)
 
 
 ## Features
