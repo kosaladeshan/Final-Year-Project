@@ -8,14 +8,15 @@ This Network Root Cause Analysis Tool is a comprehensive suite designed for netw
 
 ## Demo Video
 
-Watch a demonstration of the Network Root Cause Analysis Tool in action:
+https://github.com/kosaladeshan/Final-Year-Project/assets/videos/demo.mp4#gh-light-mode-only
+https://github.com/kosaladeshan/Final-Year-Project/assets/videos/demo.mp4#gh-dark-mode-only
 
-<video width="100%" controls autoplay>
-  <source src="videos/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-[Direct video link](https://github.com/kosaladeshan/Final-Year-Project/raw/main/videos/demo.mp4)
+The video above demonstrates the Network Root Cause Analysis Tool in action. The tool provides:
+- Real-time network monitoring and analysis
+- Device scanning and vulnerability assessment
+- WiFi signal analysis
+- Anomaly detection with SMS alerts
+- Comprehensive reporting capabilities
 
 
 ## Features
