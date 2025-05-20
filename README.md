@@ -4,7 +4,7 @@
 
 This Network Root Cause Analysis Tool is a comprehensive suite designed for network administrators to monitor, analyze, and troubleshoot network issues. The application combines real-time packet analysis, anomaly detection, device scanning, and reporting capabilities in a unified interface.
 
-![Project Poster](../Final_Year_Project.png)
+![Project Poster](images/Final_Year_Project.png)
 
 
 
