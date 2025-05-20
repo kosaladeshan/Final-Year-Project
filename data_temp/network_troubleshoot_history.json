@@ -1,0 +1,2780 @@
+[
+    {
+        "timestamp": "2025-03-31 22:06:18",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-03-31 22:06:18"
+        }
+    },
+    {
+        "timestamp": "2025-03-31 22:06:29",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-03-31 22:06:29"
+        }
+    },
+    {
+        "timestamp": "2025-03-31 22:06:29",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "57.144.152.1",
+            "timestamp": "2025-03-31 22:06:29"
+        }
+    },
+    {
+        "timestamp": "2025-03-31 22:06:39",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Error: HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002BCB861DFD0>, 'Connection to www.facebook.com timed out. (connect timeout=10)'))",
+            "timestamp": "2025-03-31 22:06:39"
+        }
+    },
+    {
+        "timestamp": "2025-03-31 22:07:00",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Error: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond",
+            "timestamp": "2025-03-31 22:07:00"
+        }
+    },
+    {
+        "timestamp": "2025-03-31 22:07:01",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  57.144.152.1\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f34c:1:face:b00c:0:25de",
+            "timestamp": "2025-03-31 22:07:01"
+        }
+    },
+    {
+        "timestamp": "2025-03-31 22:07:01",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-03-31 22:07:01"
+        }
+    },
+    {
+        "timestamp": "2025-03-31 22:07:01",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.230\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f34c:1:face:b00c:0:25de\n\t  57.144.152.1\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-03-31 22:07:01"
+        }
+    },
+    {
+        "timestamp": "2025-03-31 22:07:04",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [57.144.152.1] with 32 bytes of data:\nReply from 57.144.152.1: bytes=32 time=65ms TTL=55\nReply from 57.144.152.1: bytes=32 time=78ms TTL=55\nReply from 57.144.152.1: bytes=32 time=91ms TTL=55\nReply from 57.144.152.1: bytes=32 time=73ms TTL=55\n\nPing statistics for 57.144.152.1:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 65ms, Maximum = 91ms, Average = 76ms\n",
+            "timestamp": "2025-03-31 22:07:04"
+        }
+    },
+    {
+        "timestamp": "2025-03-31 22:07:32",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to star-mini.c10r.facebook.com [57.144.152.1]\nover a maximum of 30 hops:\nHop 1: 192.168.43.230 - Times: ms ms ms\nHop 3: 172.22.92.193 - Times: ms ms ms\nHop 5: 172.22.65.90 - Times: ms ms ms\nHop 6: 27.111.228.94 - Times: ms ms ms\nHop 7: 129.134.54.186 - Times: ms ms ms\nHop 8: 129.134.94.86 - Times: ms ms ms\nHop 9: 129.134.93.140 - Times: ms ms ms\nHop 10: 57.144.152.1 - Times: ms ms ms",
+            "timestamp": "2025-03-31 22:07:32"
+        }
+    },
+    {
+        "timestamp": "2025-03-31 22:07:47",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-03-31 22:07:47"
+        }
+    },
+    {
+        "timestamp": "2025-03-31 22:23:02",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-03-31 22:23:02"
+        }
+    },
+    {
+        "timestamp": "2025-03-31 22:23:13",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-03-31 22:23:13"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:26:11",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-01 09:26:11"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:26:13",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-01 09:26:13"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:57:09",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-01 09:57:09"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:57:20",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-01 09:57:20"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:57:20",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "157.240.7.35",
+            "timestamp": "2025-04-01 09:57:20"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:57:21",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.46 seconds",
+            "timestamp": "2025-04-01 09:57:21"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:57:21",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Jan  8 00:00:00 2025 GMT\nValid Until: Apr  8 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-01 09:57:21"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:57:21",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  157.240.7.35\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f10c:83:face:b00c:0:25de",
+            "timestamp": "2025-04-01 09:57:21"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:57:21",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-01 09:57:21"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:57:22",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  nsbm-dc1.nsbm.ac.lk\nAddress:  10.10.10.250\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f10c:83:face:b00c:0:25de\n\t  157.240.7.35\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-01 09:57:22"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:57:25",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [157.240.7.35] with 32 bytes of data:\nReply from 157.240.7.35: bytes=32 time=48ms TTL=52\nReply from 157.240.7.35: bytes=32 time=56ms TTL=52\nReply from 157.240.7.35: bytes=32 time=45ms TTL=52\nReply from 157.240.7.35: bytes=32 time=53ms TTL=52\n\nPing statistics for 157.240.7.35:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 45ms, Maximum = 56ms, Average = 50ms\n",
+            "timestamp": "2025-04-01 09:57:25"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:57:35",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to star-mini.c10r.facebook.com [157.240.7.35]\nover a maximum of 30 hops:\nHop 1: 10.16.128.1 - Times: ms ms ms\nHop 2: 172.16.23.1 - Times: ms ms ms\nHop 3: 172.16.11.1 - Times: ms ms ms\nHop 4: 222.165.145.49 - Times: ms ms ms\nHop 5: 222.165.175.45 - Times: ms ms ms\nHop 6: 103.87.125.129 - Times: ms ms ms\nHop 7: 103.87.124.133 - Times: ms ms ms\nHop 8: 103.87.124.206 - Times: ms ms ms\nHop 9: 157.240.84.242 - Times: ms ms ms\nHop 10: 129.134.54.178 - Times: ms ms ms\nHop 11: 157.240.61.246 - Times: ms ms ms\nHop 12: 163.77.192.176 - Times: ms ms ms\nHop 13: 157.240.7.35 - Times: ms ms ms",
+            "timestamp": "2025-04-01 09:57:35"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 09:57:55",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-01 09:57:55"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 11:28:56",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-01 11:28:56"
+        }
+    },
+    {
+        "timestamp": "2025-04-01 11:29:05",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-01 11:29:05"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 20:51:46",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-02 20:51:46"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 20:51:58",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.youtube.com",
+            "timestamp": "2025-04-02 20:51:58"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 20:51:58",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.youtube.com",
+            "ip_address": "64.233.170.190",
+            "timestamp": "2025-04-02 20:51:58"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 20:52:00",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.youtube.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.33 seconds",
+            "timestamp": "2025-04-02 20:52:00"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 20:52:00",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.youtube.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WR2'}\nValid From: Mar 10 08:35:59 2025 GMT\nValid Until: Jun  2 08:35:58 2025 GMT\n",
+            "timestamp": "2025-04-02 20:52:00"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 20:52:00",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.youtube.com",
+            "dns_records": "\nA Records:\n  64.233.170.190\n  74.125.130.91\n  74.125.130.136\n  64.233.170.91\n  172.253.118.136\n  64.233.170.136\n  172.253.118.93\n  74.125.130.93\n  74.125.200.93\n  172.253.118.91\n  74.125.130.190\n  172.253.118.190\n  74.125.200.190\n  74.125.200.136\n  74.125.200.91\n  64.233.170.93\n\nAAAA Records:\n  2404:6800:4003:c05::5d\n  2404:6800:4003:c05::88\n  2404:6800:4003:c05::5b\n  2404:6800:4003:c05::be",
+            "timestamp": "2025-04-02 20:52:00"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 20:52:00",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.youtube.com",
+            "timestamp": "2025-04-02 20:52:00"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 20:52:00",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.180\n\nName:    youtube-ui.l.google.com\nAddresses:  2404:6800:4003:c05::be\n\t  2404:6800:4003:c05::5b\n\t  2404:6800:4003:c05::88\n\t  2404:6800:4003:c05::5d\n\t  64.233.170.93\n\t  64.233.170.190\n\t  74.125.130.91\n\t  74.125.130.136\n\t  64.233.170.91\n\t  172.253.118.136\n\t  64.233.170.136\n\t  172.253.118.93\n\t  74.125.130.93\n\t  74.125.200.93\n\t  172.253.118.91\n\t  74.125.130.190\n\t  172.253.118.190\n\t  74.125.200.190\n\t  74.125.200.136\n\t  74.125.200.91\nAliases:  www.youtube.com\n\n",
+            "timestamp": "2025-04-02 20:52:00"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 20:52:03",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging youtube-ui.l.google.com [74.125.130.91] with 32 bytes of data:\nReply from 74.125.130.91: bytes=32 time=86ms TTL=106\nReply from 74.125.130.91: bytes=32 time=64ms TTL=106\nReply from 74.125.130.91: bytes=32 time=71ms TTL=106\nReply from 74.125.130.91: bytes=32 time=66ms TTL=106\n\nPing statistics for 74.125.130.91:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 64ms, Maximum = 86ms, Average = 71ms\n",
+            "timestamp": "2025-04-02 20:52:03"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 20:54:22",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to youtube-ui.l.google.com [74.125.130.91]\nover a maximum of 30 hops:\nHop 1: 192.168.43.180 - Times: ms ms ms\nHop 3: 172.22.207.1 - Times: ms ms ms\nHop 5: 172.22.65.90 - Times: ms ms ms\nHop 6: 27.111.228.150 - Times: ms ms ms\nHop 7: 192.178.109.119 - Times: ms ms ms\nHop 8: 192.178.109.86 - Times: ms ms ms\nHop 9: 216.239.35.154 - Times: ms ms ms\nHop 10: 66.249.95.101 - Times: ms ms ms\nHop 11: 108.170.234.59 - Times: ms ms ms\nHop 21: 74.125.130.91 - Times: ms ms ms",
+            "timestamp": "2025-04-02 20:54:22"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 20:55:23",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-02 20:55:23"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:25:37",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-02 21:25:37"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:25:48",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-02 21:25:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:25:48",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "57.144.152.1",
+            "timestamp": "2025-04-02 21:25:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:25:49",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.52 seconds",
+            "timestamp": "2025-04-02 21:25:49"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:25:49",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Jan  9 00:00:00 2025 GMT\nValid Until: Apr  9 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-02 21:25:49"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:25:50",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  57.144.152.1\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f34c:1:face:b00c:0:25de",
+            "timestamp": "2025-04-02 21:25:50"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:25:50",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-02 21:25:50"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:25:50",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.180\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f34c:1:face:b00c:0:25de\n\t  57.144.152.1\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-02 21:25:50"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:25:53",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [57.144.152.1] with 32 bytes of data:\nReply from 57.144.152.1: bytes=32 time=63ms TTL=55\nReply from 57.144.152.1: bytes=32 time=78ms TTL=55\nReply from 57.144.152.1: bytes=32 time=82ms TTL=55\nReply from 57.144.152.1: bytes=32 time=76ms TTL=55\n\nPing statistics for 57.144.152.1:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 63ms, Maximum = 82ms, Average = 74ms\n",
+            "timestamp": "2025-04-02 21:25:53"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:26:22",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "",
+            "timestamp": "2025-04-02 21:26:22"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:26:55",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-02 21:26:55"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:26:55",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "157.240.13.35",
+            "timestamp": "2025-04-02 21:26:55"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:26:55",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.52 seconds",
+            "timestamp": "2025-04-02 21:26:55"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:26:55",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Jan  9 00:00:00 2025 GMT\nValid Until: Apr  9 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-02 21:26:55"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:26:56",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  157.240.13.35\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f10c:283:face:b00c:0:25de",
+            "timestamp": "2025-04-02 21:26:56"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:26:56",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-02 21:26:56"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:26:56",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.180\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f10c:283:face:b00c:0:25de\n\t  157.240.13.35\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-02 21:26:56"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:26:59",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [157.240.13.35] with 32 bytes of data:\nReply from 157.240.13.35: bytes=32 time=65ms TTL=55\nReply from 157.240.13.35: bytes=32 time=58ms TTL=55\nReply from 157.240.13.35: bytes=32 time=58ms TTL=55\nReply from 157.240.13.35: bytes=32 time=56ms TTL=55\n\nPing statistics for 157.240.13.35:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 56ms, Maximum = 65ms, Average = 59ms\n",
+            "timestamp": "2025-04-02 21:26:59"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:27:26",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-02 21:27:26"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:28:19",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-02 21:28:19"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:28:32",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.youtube.com",
+            "timestamp": "2025-04-02 21:28:32"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:28:32",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.youtube.com",
+            "ip_address": "172.253.118.190",
+            "timestamp": "2025-04-02 21:28:32"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:28:35",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.youtube.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.32 seconds",
+            "timestamp": "2025-04-02 21:28:35"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:28:36",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.youtube.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WR2'}\nValid From: Mar 10 08:35:59 2025 GMT\nValid Until: Jun  2 08:35:58 2025 GMT\n",
+            "timestamp": "2025-04-02 21:28:36"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:28:36",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.youtube.com",
+            "dns_records": "\nA Records:\n  172.253.118.190\n  74.125.200.190\n  74.125.68.190\n  74.125.130.190\n  64.233.170.136\n  74.125.130.93\n  64.233.170.190\n  74.125.130.91\n  64.233.170.91\n  64.233.170.93\n  74.125.68.93\n  74.125.130.136\n  74.125.68.91\n  74.125.200.136\n  74.125.200.93\n  74.125.200.91\n\nAAAA Records:\n  2404:6800:4003:c00::5b\n  2404:6800:4003:c00::88\n  2404:6800:4003:c00::be\n  2404:6800:4003:c05::5b",
+            "timestamp": "2025-04-02 21:28:36"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:28:36",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.youtube.com",
+            "timestamp": "2025-04-02 21:28:36"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:28:36",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.180\n\nName:    youtube-ui.l.google.com\nAddresses:  2404:6800:4003:c05::5b\n\t  2404:6800:4003:c00::be\n\t  2404:6800:4003:c00::88\n\t  2404:6800:4003:c00::5b\n\t  74.125.200.91\n\t  172.253.118.190\n\t  74.125.200.190\n\t  74.125.68.190\n\t  74.125.130.190\n\t  64.233.170.136\n\t  74.125.130.93\n\t  64.233.170.190\n\t  74.125.130.91\n\t  64.233.170.91\n\t  64.233.170.93\n\t  74.125.68.93\n\t  74.125.130.136\n\t  74.125.68.91\n\t  74.125.200.136\n\t  74.125.200.93\nAliases:  www.youtube.com\n\n",
+            "timestamp": "2025-04-02 21:28:36"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:28:39",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging youtube-ui.l.google.com [74.125.200.190] with 32 bytes of data:\nReply from 74.125.200.190: bytes=32 time=76ms TTL=104\nReply from 74.125.200.190: bytes=32 time=65ms TTL=104\nReply from 74.125.200.190: bytes=32 time=67ms TTL=104\nReply from 74.125.200.190: bytes=32 time=63ms TTL=104\n\nPing statistics for 74.125.200.190:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 63ms, Maximum = 76ms, Average = 67ms\n",
+            "timestamp": "2025-04-02 21:28:39"
+        }
+    },
+    {
+        "timestamp": "2025-04-02 21:29:54",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-02 21:29:54"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 16:42:45",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 16:42:45"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 16:42:47",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 16:42:47"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 16:44:24",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 16:44:24"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 16:44:25",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 16:44:25"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:14:59",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 17:14:59"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:15:09",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.fb.com",
+            "timestamp": "2025-04-06 17:15:09"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:15:09",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.fb.com",
+            "ip_address": "57.144.152.1",
+            "timestamp": "2025-04-06 17:15:09"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:15:10",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.fb.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.45 seconds",
+            "timestamp": "2025-04-06 17:15:10"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:15:10",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.fb.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Jan 13 00:00:00 2025 GMT\nValid Until: Apr 13 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-06 17:15:10"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:15:11",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.fb.com",
+            "dns_records": "\nA Records:\n  57.144.152.1\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f34c:1:face:b00c:0:25de",
+            "timestamp": "2025-04-06 17:15:11"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:15:11",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.fb.com",
+            "timestamp": "2025-04-06 17:15:11"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:15:11",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.155\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f34c:1:face:b00c:0:25de\n\t  57.144.152.1\nAliases:  www.fb.com\n\t  www.facebook.com\n\n",
+            "timestamp": "2025-04-06 17:15:11"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:15:14",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [57.144.152.1] with 32 bytes of data:\nReply from 57.144.152.1: bytes=32 time=53ms TTL=55\nReply from 57.144.152.1: bytes=32 time=55ms TTL=55\nReply from 57.144.152.1: bytes=32 time=128ms TTL=55\nReply from 57.144.152.1: bytes=32 time=53ms TTL=55\n\nPing statistics for 57.144.152.1:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 53ms, Maximum = 128ms, Average = 72ms\n",
+            "timestamp": "2025-04-06 17:15:14"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:15:44",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to star-mini.c10r.facebook.com [57.144.152.1]\nover a maximum of 30 hops:\nHop 1: 192.168.43.155 - Times: ms ms ms\nHop 3: 172.22.207.2 - Times: ms ms ms\nHop 4: 172.22.196.57 - Times: ms ms ms\nHop 6: 172.22.65.90 - Times: ms ms ms\nHop 7: 27.111.228.94 - Times: ms ms ms\nHop 8: 129.134.54.186 - Times: ms ms ms\nHop 9: 129.134.94.85 - Times: ms ms ms\nHop 10: 129.134.86.132 - Times: ms ms ms\nHop 11: 57.144.152.1 - Times: ms ms ms",
+            "timestamp": "2025-04-06 17:15:44"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:16:18",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 17:16:18"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:50:07",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 17:50:07"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:50:16",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-06 17:50:16"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:50:16",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "8.8.8.8",
+            "ip_address": "8.8.8.8",
+            "timestamp": "2025-04-06 17:50:16"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:50:16",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "status_info": "Status Code: 200\nResponse Time: 0.25 seconds",
+            "timestamp": "2025-04-06 17:50:16"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:50:16",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WR2'}\nValid From: Mar 20 11:20:36 2025 GMT\nValid Until: Jun 12 11:20:35 2025 GMT\n",
+            "timestamp": "2025-04-06 17:50:16"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:50:17",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "dns_records": "\nA Records:\n  8.8.8.8",
+            "timestamp": "2025-04-06 17:50:17"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:50:17",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-06 17:50:17"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:50:17",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.155\n\nName:    dns.google\nAddress:  8.8.8.8\n\n",
+            "timestamp": "2025-04-06 17:50:17"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:50:20",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging 8.8.8.8 with 32 bytes of data:\nReply from 8.8.8.8: bytes=32 time=61ms TTL=113\nReply from 8.8.8.8: bytes=32 time=59ms TTL=113\nReply from 8.8.8.8: bytes=32 time=402ms TTL=113\nReply from 8.8.8.8: bytes=32 time=58ms TTL=113\n\nPing statistics for 8.8.8.8:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 58ms, Maximum = 402ms, Average = 145ms\n",
+            "timestamp": "2025-04-06 17:50:20"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:50:48",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to 8.8.8.8 over a maximum of 30 hops\nHop 1: 192.168.43.155 - Times: ms ms ms\nHop 3: 172.22.207.2 - Times: ms ms ms\nHop 4: 172.22.196.57 - Times: ms ms ms\nHop 6: 172.22.65.90 - Times: ms ms ms\nHop 7: 27.111.228.150 - Times: ms ms ms\nHop 8: 192.178.109.205 - Times: ms ms ms\nHop 9: 142.251.241.3 - Times: ms ms ms\nHop 10: 8.8.8.8 - Times: ms ms ms",
+            "timestamp": "2025-04-06 17:50:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:51:03",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 17:51:03"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:56:41",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 17:56:41"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:56:47",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-06 17:56:47"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:56:47",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "8.8.8.8",
+            "ip_address": "8.8.8.8",
+            "timestamp": "2025-04-06 17:56:47"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:56:47",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "status_info": "Status Code: 200\nResponse Time: 0.22 seconds",
+            "timestamp": "2025-04-06 17:56:47"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:56:47",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WR2'}\nValid From: Mar 20 11:20:36 2025 GMT\nValid Until: Jun 12 11:20:35 2025 GMT\n",
+            "timestamp": "2025-04-06 17:56:47"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:56:47",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "dns_records": "\nA Records:\n  8.8.8.8",
+            "timestamp": "2025-04-06 17:56:47"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:56:47",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-06 17:56:47"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:56:48",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.155\n\nName:    dns.google\nAddress:  8.8.8.8\n\n",
+            "timestamp": "2025-04-06 17:56:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:56:51",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging 8.8.8.8 with 32 bytes of data:\nReply from 8.8.8.8: bytes=32 time=72ms TTL=113\nReply from 8.8.8.8: bytes=32 time=61ms TTL=113\nReply from 8.8.8.8: bytes=32 time=65ms TTL=113\nReply from 8.8.8.8: bytes=32 time=63ms TTL=113\n\nPing statistics for 8.8.8.8:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 61ms, Maximum = 72ms, Average = 65ms\n",
+            "timestamp": "2025-04-06 17:56:51"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:57:19",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to 8.8.8.8 over a maximum of 30 hops\nHop 1: 192.168.43.155 - Times: ms ms ms\nHop 3: 172.22.207.2 - Times: ms ms ms\nHop 4: 172.22.196.57 - Times: ms ms ms\nHop 6: 172.22.65.90 - Times: ms ms ms\nHop 7: 27.111.228.150 - Times: ms ms ms\nHop 8: 192.178.109.205 - Times: ms ms ms\nHop 9: 142.251.241.3 - Times: ms ms ms\nHop 10: 8.8.8.8 - Times: ms ms ms",
+            "timestamp": "2025-04-06 17:57:19"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:57:21",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 17:57:21"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:59:41",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 17:59:41"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:59:46",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-06 17:59:46"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:59:46",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "8.8.8.8",
+            "ip_address": "8.8.8.8",
+            "timestamp": "2025-04-06 17:59:46"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:59:47",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "status_info": "Status Code: 200\nResponse Time: 0.27 seconds",
+            "timestamp": "2025-04-06 17:59:47"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:59:48",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WR2'}\nValid From: Mar 20 11:20:36 2025 GMT\nValid Until: Jun 12 11:20:35 2025 GMT\n",
+            "timestamp": "2025-04-06 17:59:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:59:48",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "dns_records": "\nA Records:\n  8.8.8.8",
+            "timestamp": "2025-04-06 17:59:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:59:48",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-06 17:59:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:59:48",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.155\n\nName:    dns.google\nAddress:  8.8.8.8\n\n",
+            "timestamp": "2025-04-06 17:59:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:59:51",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging 8.8.8.8 with 32 bytes of data:\nReply from 8.8.8.8: bytes=32 time=63ms TTL=113\nReply from 8.8.8.8: bytes=32 time=79ms TTL=113\nReply from 8.8.8.8: bytes=32 time=81ms TTL=113\nReply from 8.8.8.8: bytes=32 time=77ms TTL=113\n\nPing statistics for 8.8.8.8:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 63ms, Maximum = 81ms, Average = 75ms\n",
+            "timestamp": "2025-04-06 17:59:51"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:00:23",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to 8.8.8.8 over a maximum of 30 hops\nHop 1: 192.168.43.155 - Times: ms ms ms\nHop 3: 172.22.207.2 - Times: ms ms ms\nHop 4: 172.22.196.57 - Times: ms ms ms\nHop 6: 172.22.65.90 - Times: ms ms ms\nHop 7: 27.111.228.150 - Times: ms ms ms\nHop 8: 192.178.109.205 - Times: ms ms ms\nHop 9: 142.251.241.3 - Times: ms ms ms\nHop 10: 8.8.8.8 - Times: ms ms ms",
+            "timestamp": "2025-04-06 18:00:23"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:00:42",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 18:00:42"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:13:31",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 18:13:31"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:13:39",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-06 18:13:39"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:13:39",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "8.8.8.8",
+            "ip_address": "8.8.8.8",
+            "timestamp": "2025-04-06 18:13:39"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:13:40",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "status_info": "Status Code: 200\nResponse Time: 0.38 seconds",
+            "timestamp": "2025-04-06 18:13:40"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:13:41",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WR2'}\nValid From: Mar 20 11:20:36 2025 GMT\nValid Until: Jun 12 11:20:35 2025 GMT\n",
+            "timestamp": "2025-04-06 18:13:41"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:13:41",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "dns_records": "",
+            "timestamp": "2025-04-06 18:13:41"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:13:41",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-06 18:13:41"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:13:41",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.1.1\n\nName:    dns.google\nAddress:  8.8.8.8\n\n",
+            "timestamp": "2025-04-06 18:13:41"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:13:44",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging 8.8.8.8 with 32 bytes of data:\nReply from 8.8.8.8: bytes=32 time=80ms TTL=113\nReply from 8.8.8.8: bytes=32 time=66ms TTL=113\nReply from 8.8.8.8: bytes=32 time=53ms TTL=113\nReply from 8.8.8.8: bytes=32 time=51ms TTL=113\n\nPing statistics for 8.8.8.8:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 51ms, Maximum = 80ms, Average = 62ms\n",
+            "timestamp": "2025-04-06 18:13:44"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:13:54",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to 8.8.8.8 over a maximum of 30 hops\nHop 1: 192.168.1.1 - Times: ms ms ms\nHop 2: 100.84.0.1 - Times: ms ms ms\nHop 3: 198.51.100.118 - Times: ms ms ms\nHop 4: 198.51.100.117 - Times: ms ms ms\nHop 5: 222.165.175.150 - Times: ms ms ms\nHop 6: 222.165.175.145 - Times: ms ms ms\nHop 7: 103.87.125.129 - Times: ms ms ms\nHop 8: 103.87.124.93 - Times: ms ms ms\nHop 9: 103.87.124.74 - Times: ms ms ms\nHop 10: 74.125.48.62 - Times: ms ms ms\nHop 11: 72.14.235.235 - Times: ms ms ms\nHop 12: 142.251.240.255 - Times: ms ms ms\nHop 13: 8.8.8.8 - Times: ms ms ms",
+            "timestamp": "2025-04-06 18:13:54"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 18:13:57",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-06 18:13:57"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:16:34",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:16:34"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:16:49",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 17:16:49"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:16:49",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "57.144.160.1",
+            "timestamp": "2025-04-07 17:16:49"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:16:50",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.83 seconds",
+            "timestamp": "2025-04-07 17:16:50"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:16:50",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Jan 14 00:00:00 2025 GMT\nValid Until: Apr 14 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-07 17:16:50"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:16:50",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  57.144.160.1\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f350:1:face:b00c:0:25de",
+            "timestamp": "2025-04-07 17:16:50"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:16:50",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 17:16:50"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:16:51",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.199\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f350:1:face:b00c:0:25de\n\t  57.144.160.1\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-07 17:16:51"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:16:54",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [57.144.160.1] with 32 bytes of data:\nReply from 57.144.160.1: bytes=32 time=57ms TTL=55\nReply from 57.144.160.1: bytes=32 time=54ms TTL=55\nReply from 57.144.160.1: bytes=32 time=55ms TTL=55\nReply from 57.144.160.1: bytes=32 time=62ms TTL=55\n\nPing statistics for 57.144.160.1:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 54ms, Maximum = 62ms, Average = 57ms\n",
+            "timestamp": "2025-04-07 17:16:54"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:17:22",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to star-mini.c10r.facebook.com [57.144.160.1]\nover a maximum of 30 hops:\nHop 1: 192.168.43.199 - Times: ms ms ms\nHop 3: 172.22.207.1 - Times: ms ms ms\nHop 5: 172.22.65.90 - Times: ms ms ms\nHop 6: 27.111.228.94 - Times: ms ms ms\nHop 7: 129.134.54.186 - Times: ms ms ms\nHop 8: 129.134.57.14 - Times: ms ms ms\nHop 9: 129.134.56.78 - Times: ms ms ms\nHop 10: 57.144.160.1 - Times: ms ms ms",
+            "timestamp": "2025-04-07 17:17:22"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:19:32",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:19:32"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:27:19",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:27:19"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:27:20",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:27:20"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:28:18",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:28:18"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:28:22",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:28:22"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:28:30",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:28:30"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:28:41",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 17:28:41"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:28:41",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "57.144.160.1",
+            "timestamp": "2025-04-07 17:28:41"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:28:42",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.85 seconds",
+            "timestamp": "2025-04-07 17:28:42"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:28:42",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Jan 14 00:00:00 2025 GMT\nValid Until: Apr 14 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-07 17:28:42"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:28:43",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  57.144.160.1\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f350:1:face:b00c:0:25de",
+            "timestamp": "2025-04-07 17:28:43"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:28:43",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 17:28:43"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:28:43",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.199\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f350:1:face:b00c:0:25de\n\t  57.144.160.1\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-07 17:28:43"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:28:46",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [57.144.160.1] with 32 bytes of data:\nReply from 57.144.160.1: bytes=32 time=68ms TTL=55\nReply from 57.144.160.1: bytes=32 time=72ms TTL=55\nReply from 57.144.160.1: bytes=32 time=88ms TTL=55\nReply from 57.144.160.1: bytes=32 time=56ms TTL=55\n\nPing statistics for 57.144.160.1:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 56ms, Maximum = 88ms, Average = 71ms\n",
+            "timestamp": "2025-04-07 17:28:46"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:29:15",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to star-mini.c10r.facebook.com [57.144.160.1]\nover a maximum of 30 hops:\nHop 1: 192.168.43.199 - Times: ms ms ms\nHop 3: 172.22.207.1 - Times: ms ms ms\nHop 5: 172.22.65.90 - Times: ms ms ms\nHop 6: 27.111.228.94 - Times: ms ms ms\nHop 7: 129.134.54.186 - Times: ms ms ms\nHop 8: 129.134.57.14 - Times: ms ms ms\nHop 9: 129.134.56.78 - Times: ms ms ms\nHop 10: 57.144.160.1 - Times: ms ms ms",
+            "timestamp": "2025-04-07 17:29:15"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:30:22",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:30:22"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:31:20",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:31:20"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:31:31",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 17:31:31"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:31:31",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "57.144.152.1",
+            "timestamp": "2025-04-07 17:31:31"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:31:32",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.82 seconds",
+            "timestamp": "2025-04-07 17:31:32"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:31:32",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Jan 14 00:00:00 2025 GMT\nValid Until: Apr 14 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-07 17:31:32"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:31:32",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  57.144.152.1\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f34c:1:face:b00c:0:25de",
+            "timestamp": "2025-04-07 17:31:32"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:31:32",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 17:31:32"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:31:32",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.199\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f34c:1:face:b00c:0:25de\n\t  57.144.152.1\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-07 17:31:32"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:31:35",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [57.144.152.1] with 32 bytes of data:\nReply from 57.144.152.1: bytes=32 time=56ms TTL=55\nReply from 57.144.152.1: bytes=32 time=65ms TTL=55\nReply from 57.144.152.1: bytes=32 time=70ms TTL=55\nReply from 57.144.152.1: bytes=32 time=59ms TTL=55\n\nPing statistics for 57.144.152.1:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 56ms, Maximum = 70ms, Average = 62ms\n",
+            "timestamp": "2025-04-07 17:31:35"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:32:51",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:32:51"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:01",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 17:33:01"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:01",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "57.144.160.1",
+            "timestamp": "2025-04-07 17:33:01"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:02",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.84 seconds",
+            "timestamp": "2025-04-07 17:33:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:02",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Jan 14 00:00:00 2025 GMT\nValid Until: Apr 14 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-07 17:33:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:02",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  57.144.160.1\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f350:1:face:b00c:0:25de",
+            "timestamp": "2025-04-07 17:33:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:02",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 17:33:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:02",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.199\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f350:1:face:b00c:0:25de\n\t  57.144.160.1\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-07 17:33:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:05",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [57.144.160.1] with 32 bytes of data:\nReply from 57.144.160.1: bytes=32 time=63ms TTL=55\nReply from 57.144.160.1: bytes=32 time=63ms TTL=55\nReply from 57.144.160.1: bytes=32 time=59ms TTL=55\nReply from 57.144.160.1: bytes=32 time=54ms TTL=55\n\nPing statistics for 57.144.160.1:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 54ms, Maximum = 63ms, Average = 59ms\n",
+            "timestamp": "2025-04-07 17:33:05"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:34",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to star-mini.c10r.facebook.com [57.144.160.1]\nover a maximum of 30 hops:\nHop 1: 192.168.43.199 - All requests timed out\nHop 2: Request timed out\nHop 3: 172.22.207.1 - All requests timed out\nHop 4: Request timed out\nHop 5: 172.22.65.90 - All requests timed out\nHop 6: 27.111.228.94 - All requests timed out\nHop 7: 129.134.54.186 - All requests timed out\nHop 8: 129.134.57.14 - All requests timed out\nHop 9: 129.134.56.78 - All requests timed out\nHop 10: 57.144.160.1 - All requests timed out",
+            "timestamp": "2025-04-07 17:33:34"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:47",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 17:33:47"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:47",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "57.144.152.1",
+            "timestamp": "2025-04-07 17:33:47"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:48",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.79 seconds",
+            "timestamp": "2025-04-07 17:33:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:48",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Jan 14 00:00:00 2025 GMT\nValid Until: Apr 14 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-07 17:33:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:48",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  57.144.152.1\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f34c:1:face:b00c:0:25de",
+            "timestamp": "2025-04-07 17:33:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:48",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 17:33:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:49",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.199\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f34c:1:face:b00c:0:25de\n\t  57.144.152.1\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-07 17:33:49"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:33:52",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [57.144.152.1] with 32 bytes of data:\nReply from 57.144.152.1: bytes=32 time=61ms TTL=55\nReply from 57.144.152.1: bytes=32 time=53ms TTL=55\nReply from 57.144.152.1: bytes=32 time=85ms TTL=55\nReply from 57.144.152.1: bytes=32 time=57ms TTL=55\n\nPing statistics for 57.144.152.1:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 53ms, Maximum = 85ms, Average = 64ms\n",
+            "timestamp": "2025-04-07 17:33:52"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:34:20",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to star-mini.c10r.facebook.com [57.144.152.1]\nover a maximum of 30 hops:\nHop 1: 192.168.43.199 - All requests timed out\nHop 2: Request timed out\nHop 3: 172.22.207.1 - All requests timed out\nHop 4: Request timed out\nHop 5: 172.22.65.90 - All requests timed out\nHop 6: 27.111.228.94 - All requests timed out\nHop 7: 129.134.54.186 - All requests timed out\nHop 8: 129.134.94.85 - All requests timed out\nHop 9: 129.134.86.109 - All requests timed out\nHop 10: 57.144.152.1 - All requests timed out",
+            "timestamp": "2025-04-07 17:34:20"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:35:06",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:35:06"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:35:13",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:35:13"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:35:25",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 17:35:25"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:35:25",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "57.144.160.1",
+            "timestamp": "2025-04-07 17:35:25"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:35:26",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.79 seconds",
+            "timestamp": "2025-04-07 17:35:26"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:35:26",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Jan 14 00:00:00 2025 GMT\nValid Until: Apr 14 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-07 17:35:26"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:35:26",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  57.144.160.1\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f350:1:face:b00c:0:25de",
+            "timestamp": "2025-04-07 17:35:26"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:35:26",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 17:35:26"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:35:26",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.199\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f350:1:face:b00c:0:25de\n\t  57.144.160.1\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-07 17:35:26"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:35:29",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [57.144.160.1] with 32 bytes of data:\nReply from 57.144.160.1: bytes=32 time=56ms TTL=55\nReply from 57.144.160.1: bytes=32 time=57ms TTL=55\nReply from 57.144.160.1: bytes=32 time=56ms TTL=55\nReply from 57.144.160.1: bytes=32 time=56ms TTL=55\n\nPing statistics for 57.144.160.1:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 56ms, Maximum = 57ms, Average = 56ms\n",
+            "timestamp": "2025-04-07 17:35:29"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:35:58",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to star-mini.c10r.facebook.com [57.144.160.1]\nHop 1: 192.168.43.199 - *Timeout*\nHop 2: *Timeout*\nHop 3: 172.22.207.1 - *Timeout*\nHop 4: *Timeout*\nHop 5: 172.22.65.90 - *Timeout*\nHop 6: 27.111.228.94 - *Timeout*\nHop 7: 129.134.54.186 - *Timeout*\nHop 8: 129.134.57.14 - *Timeout*\nHop 9: 129.134.56.78 - *Timeout*\nHop 10: 57.144.160.1 - *Timeout*",
+            "timestamp": "2025-04-07 17:35:58"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:36:10",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:36:10"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:36:40",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:36:40"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 17:36:42",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 17:36:42"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:04:09",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 18:04:09"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:04:20",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 18:04:20"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:04:20",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "57.144.160.1",
+            "timestamp": "2025-04-07 18:04:20"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:04:21",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.82 seconds",
+            "timestamp": "2025-04-07 18:04:21"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:04:21",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Jan 14 00:00:00 2025 GMT\nValid Until: Apr 14 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-07 18:04:21"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:04:22",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  57.144.160.1\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f350:1:face:b00c:0:25de",
+            "timestamp": "2025-04-07 18:04:22"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:04:22",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-07 18:04:22"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:04:22",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.199\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f350:1:face:b00c:0:25de\n\t  57.144.160.1\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-07 18:04:22"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:04:25",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [57.144.160.1] with 32 bytes of data:\nReply from 57.144.160.1: bytes=32 time=65ms TTL=55\nReply from 57.144.160.1: bytes=32 time=61ms TTL=55\nReply from 57.144.160.1: bytes=32 time=62ms TTL=55\nReply from 57.144.160.1: bytes=32 time=55ms TTL=55\n\nPing statistics for 57.144.160.1:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 55ms, Maximum = 65ms, Average = 60ms\n",
+            "timestamp": "2025-04-07 18:04:25"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:04:53",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to star-mini.c10r.facebook.com [57.144.160.1]\nHop 1: 192.168.43.199 - *Timeout*\nHop 2: *Timeout*\nHop 3: 172.22.207.1 - *Timeout*\nHop 4: *Timeout*\nHop 5: 172.22.65.90 - *Timeout*\nHop 6: 27.111.228.94 - *Timeout*\nHop 7: 129.134.54.186 - *Timeout*\nHop 8: 129.134.57.14 - *Timeout*\nHop 9: 129.134.56.78 - *Timeout*\nHop 10: 57.144.160.1 - *Timeout*",
+            "timestamp": "2025-04-07 18:04:53"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:04:57",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 18:04:57"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:20:01",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 18:20:01"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:24:51",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 18:24:51"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:24:55",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 18:24:55"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:49:04",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 18:49:04"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:49:06",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 18:49:06"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:49:37",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 18:49:37"
+        }
+    },
+    {
+        "timestamp": "2025-04-07 18:49:38",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-07 18:49:38"
+        }
+    },
+    {
+        "timestamp": "2025-04-18 22:08:45",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-18 22:08:45"
+        }
+    },
+    {
+        "timestamp": "2025-04-18 22:08:49",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-18 22:08:49"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 12:08:00",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-22 12:08:00"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 12:08:13",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-22 12:08:13"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:13:32",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-22 18:13:32"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:13:42",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.google.com",
+            "timestamp": "2025-04-22 18:13:42"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:13:42",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.google.com",
+            "ip_address": "172.217.194.106",
+            "timestamp": "2025-04-22 18:13:42"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:13:43",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.google.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.40 seconds",
+            "timestamp": "2025-04-22 18:13:43"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:13:43",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.google.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WE2'}\nValid From: Mar 31 08:56:27 2025 GMT\nValid Until: Jun 23 08:56:26 2025 GMT\n",
+            "timestamp": "2025-04-22 18:13:43"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:13:43",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.google.com",
+            "dns_records": "\nA Records:\n  172.217.194.106\n  172.217.194.147\n  172.217.194.105\n  172.217.194.103\n  172.217.194.99\n  172.217.194.104\n\nAAAA Records:\n  2404:6800:4003:c04::67\n  2404:6800:4003:c04::63\n  2404:6800:4003:c04::69\n  2404:6800:4003:c04::68",
+            "timestamp": "2025-04-22 18:13:43"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:13:43",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.google.com",
+            "timestamp": "2025-04-22 18:13:43"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:13:43",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.117\n\nName:    www.google.com\nAddresses:  2404:6800:4003:c04::68\n\t  2404:6800:4003:c04::69\n\t  2404:6800:4003:c04::63\n\t  2404:6800:4003:c04::67\n\t  172.217.194.104\n\t  172.217.194.106\n\t  172.217.194.147\n\t  172.217.194.105\n\t  172.217.194.103\n\t  172.217.194.99\n\n",
+            "timestamp": "2025-04-22 18:13:43"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:13:46",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging www.google.com [172.217.194.147] with 32 bytes of data:\nReply from 172.217.194.147: bytes=32 time=76ms TTL=103\nReply from 172.217.194.147: bytes=32 time=70ms TTL=103\nReply from 172.217.194.147: bytes=32 time=64ms TTL=103\nReply from 172.217.194.147: bytes=32 time=73ms TTL=103\n\nPing statistics for 172.217.194.147:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 64ms, Maximum = 76ms, Average = 70ms\n",
+            "timestamp": "2025-04-22 18:13:46"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:16:05",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to www.google.com [172.217.194.147]\nHop 1: 192.168.43.117 - *Timeout*\nHop 2: *Timeout*\nHop 3: 172.22.92.193 - *Timeout*\nHop 4: *Timeout*\nHop 5: 172.22.65.90 - *Timeout*\nHop 6: 27.111.228.150 - *Timeout*\nHop 7: 172.253.70.41 - *Timeout*\nHop 8: 142.251.229.66 - *Timeout*\nHop 9: 72.14.235.60 - *Timeout*\nHop 10: 209.85.242.12 - *Timeout*\nHop 11: 108.170.230.105 - *Timeout*\nHop 12: *Timeout*\nHop 13: *Timeout*\nHop 14: *Timeout*\nHop 15: *Timeout*\nHop 16: *Timeout*\nHop 17: *Timeout*\nHop 18: *Timeout*\nHop 19: *Timeout*\nHop 20: *Timeout*\nHop 21: 172.217.194.147 - *Timeout*",
+            "timestamp": "2025-04-22 18:16:05"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:16:44",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-22 18:16:44"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:22:46",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-22 18:22:46"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:22:53",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-22 18:22:53"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:22:53",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "8.8.8.8",
+            "ip_address": "8.8.8.8",
+            "timestamp": "2025-04-22 18:22:53"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:22:54",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "status_info": "Status Code: 200\nResponse Time: 0.67 seconds",
+            "timestamp": "2025-04-22 18:22:54"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:22:54",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WR2'}\nValid From: Mar 31 08:56:25 2025 GMT\nValid Until: Jun 23 08:56:24 2025 GMT\n",
+            "timestamp": "2025-04-22 18:22:54"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:22:54",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "dns_records": "\nA Records:\n  8.8.8.8",
+            "timestamp": "2025-04-22 18:22:54"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:22:54",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-22 18:22:54"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:22:54",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.117\n\nName:    dns.google\nAddress:  8.8.8.8\n\n",
+            "timestamp": "2025-04-22 18:22:54"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:22:57",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging 8.8.8.8 with 32 bytes of data:\nReply from 8.8.8.8: bytes=32 time=64ms TTL=114\nReply from 8.8.8.8: bytes=32 time=79ms TTL=114\nReply from 8.8.8.8: bytes=32 time=58ms TTL=114\nReply from 8.8.8.8: bytes=32 time=78ms TTL=114\n\nPing statistics for 8.8.8.8:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 58ms, Maximum = 79ms, Average = 69ms\n",
+            "timestamp": "2025-04-22 18:22:57"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:23:25",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to 8.8.8.8 over a maximum of 30 hops\nHop 1: 192.168.43.117 - *Timeout*\nHop 2: *Timeout*\nHop 3: 172.22.92.193 - *Timeout*\nHop 4: *Timeout*\nHop 5: 172.22.65.90 - *Timeout*\nHop 6: 27.111.228.150 - *Timeout*\nHop 7: 172.253.70.41 - *Timeout*\nHop 8: 72.14.232.107 - *Timeout*\nHop 9: 8.8.8.8 - *Timeout*",
+            "timestamp": "2025-04-22 18:23:25"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:23:28",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-22 18:23:28"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:36:11",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-22 18:36:11"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:36:30",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-22 18:36:30"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:36:30",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "8.8.8.8",
+            "ip_address": "8.8.8.8",
+            "timestamp": "2025-04-22 18:36:30"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:36:31",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "status_info": "Status Code: 200\nResponse Time: 0.30 seconds",
+            "timestamp": "2025-04-22 18:36:31"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:36:31",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WR2'}\nValid From: Mar 31 08:56:25 2025 GMT\nValid Until: Jun 23 08:56:24 2025 GMT\n",
+            "timestamp": "2025-04-22 18:36:31"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:36:31",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "dns_records": "\nA Records:\n  8.8.8.8",
+            "timestamp": "2025-04-22 18:36:31"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:36:31",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-22 18:36:31"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:36:31",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.117\n\nName:    dns.google\nAddress:  8.8.8.8\n\n",
+            "timestamp": "2025-04-22 18:36:31"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:36:34",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging 8.8.8.8 with 32 bytes of data:\nReply from 8.8.8.8: bytes=32 time=77ms TTL=114\nReply from 8.8.8.8: bytes=32 time=78ms TTL=114\nReply from 8.8.8.8: bytes=32 time=75ms TTL=114\nReply from 8.8.8.8: bytes=32 time=106ms TTL=114\n\nPing statistics for 8.8.8.8:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 75ms, Maximum = 106ms, Average = 84ms\n",
+            "timestamp": "2025-04-22 18:36:34"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:37:02",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to 8.8.8.8 over a maximum of 30 hops\nHop 1: 192.168.43.117 - *Timeout*\nHop 2: *Timeout*\nHop 3: 172.22.92.193 - *Timeout*\nHop 4: *Timeout*\nHop 5: 172.22.65.90 - *Timeout*\nHop 6: 27.111.228.150 - *Timeout*\nHop 7: 172.253.70.41 - *Timeout*\nHop 8: 72.14.232.107 - *Timeout*\nHop 9: 8.8.8.8 - *Timeout*",
+            "timestamp": "2025-04-22 18:37:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:37:59",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-22 18:37:59"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:51:55",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-22 18:51:55"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:52:01",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-22 18:52:01"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:52:01",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "8.8.8.8",
+            "ip_address": "8.8.8.8",
+            "timestamp": "2025-04-22 18:52:01"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:52:02",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "status_info": "Status Code: 200\nResponse Time: 0.63 seconds",
+            "timestamp": "2025-04-22 18:52:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:52:02",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WR2'}\nValid From: Mar 31 08:56:25 2025 GMT\nValid Until: Jun 23 08:56:24 2025 GMT\n",
+            "timestamp": "2025-04-22 18:52:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:52:02",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "dns_records": "\nA Records:\n  8.8.8.8",
+            "timestamp": "2025-04-22 18:52:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:52:02",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-22 18:52:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:52:03",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.117\n\nName:    dns.google\nAddress:  8.8.8.8\n\n",
+            "timestamp": "2025-04-22 18:52:03"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:52:06",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging 8.8.8.8 with 32 bytes of data:\nReply from 8.8.8.8: bytes=32 time=71ms TTL=114\nReply from 8.8.8.8: bytes=32 time=63ms TTL=114\nReply from 8.8.8.8: bytes=32 time=71ms TTL=114\nReply from 8.8.8.8: bytes=32 time=80ms TTL=114\n\nPing statistics for 8.8.8.8:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 63ms, Maximum = 80ms, Average = 71ms\n",
+            "timestamp": "2025-04-22 18:52:06"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:52:33",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to 8.8.8.8 over a maximum of 30 hops\nHop 1: 192.168.43.117 - *Timeout*\nHop 2: *Timeout*\nHop 3: 172.22.92.193 - *Timeout*\nHop 4: *Timeout*\nHop 5: 172.22.65.90 - *Timeout*\nHop 6: 27.111.228.150 - *Timeout*\nHop 7: 172.253.70.41 - *Timeout*\nHop 8: 72.14.232.107 - *Timeout*\nHop 9: 8.8.8.8 - *Timeout*",
+            "timestamp": "2025-04-22 18:52:33"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 18:52:48",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-22 18:52:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 19:02:36",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-22 19:02:36"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 19:02:43",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-22 19:02:43"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 19:02:43",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "8.8.8.8",
+            "ip_address": "8.8.8.8",
+            "timestamp": "2025-04-22 19:02:43"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 19:02:44",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "status_info": "Status Code: 200\nResponse Time: 0.54 seconds",
+            "timestamp": "2025-04-22 19:02:44"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 19:02:44",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WR2'}\nValid From: Mar 31 08:56:25 2025 GMT\nValid Until: Jun 23 08:56:24 2025 GMT\n",
+            "timestamp": "2025-04-22 19:02:44"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 19:02:44",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "dns_records": "\nA Records:\n  8.8.8.8",
+            "timestamp": "2025-04-22 19:02:44"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 19:02:44",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-22 19:02:44"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 19:02:44",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.157\n\nName:    dns.google\nAddress:  8.8.8.8\n\n",
+            "timestamp": "2025-04-22 19:02:44"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 19:02:47",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging 8.8.8.8 with 32 bytes of data:\nReply from 8.8.8.8: bytes=32 time=75ms TTL=113\nReply from 8.8.8.8: bytes=32 time=63ms TTL=113\nReply from 8.8.8.8: bytes=32 time=58ms TTL=113\nReply from 8.8.8.8: bytes=32 time=95ms TTL=113\n\nPing statistics for 8.8.8.8:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 58ms, Maximum = 95ms, Average = 72ms\n",
+            "timestamp": "2025-04-22 19:02:47"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 19:03:14",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to 8.8.8.8 over a maximum of 30 hops\nHop 1: 192.168.43.157 - *Timeout*\nHop 2: *Timeout*\nHop 3: 172.19.92.201 - *Timeout*\nHop 4: *Timeout*\nHop 5: 172.22.65.90 - *Timeout*\nHop 6: 27.111.228.150 - *Timeout*\nHop 7: 192.178.109.119 - *Timeout*\nHop 8: 142.251.240.253 - *Timeout*\nHop 9: 8.8.8.8 - *Timeout*",
+            "timestamp": "2025-04-22 19:03:14"
+        }
+    },
+    {
+        "timestamp": "2025-04-22 19:04:24",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-22 19:04:24"
+        }
+    },
+    {
+        "timestamp": "2025-04-23 00:38:02",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-23 00:38:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-23 00:38:09",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-23 00:38:09"
+        }
+    },
+    {
+        "timestamp": "2025-04-23 00:38:09",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "8.8.8.8",
+            "ip_address": "8.8.8.8",
+            "timestamp": "2025-04-23 00:38:09"
+        }
+    },
+    {
+        "timestamp": "2025-04-23 00:38:11",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "status_info": "Status Code: 200\nResponse Time: 0.91 seconds",
+            "timestamp": "2025-04-23 00:38:11"
+        }
+    },
+    {
+        "timestamp": "2025-04-23 00:38:11",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WR2'}\nValid From: Mar 31 08:56:25 2025 GMT\nValid Until: Jun 23 08:56:24 2025 GMT\n",
+            "timestamp": "2025-04-23 00:38:11"
+        }
+    },
+    {
+        "timestamp": "2025-04-23 00:38:11",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "dns_records": "",
+            "timestamp": "2025-04-23 00:38:11"
+        }
+    },
+    {
+        "timestamp": "2025-04-23 00:38:11",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "8.8.8.8",
+            "timestamp": "2025-04-23 00:38:11"
+        }
+    },
+    {
+        "timestamp": "2025-04-23 00:38:11",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.1.1\n\nName:    dns.google\nAddress:  8.8.8.8\n\n",
+            "timestamp": "2025-04-23 00:38:11"
+        }
+    },
+    {
+        "timestamp": "2025-04-23 00:38:14",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging 8.8.8.8 with 32 bytes of data:\nReply from 8.8.8.8: bytes=32 time=59ms TTL=113\nReply from 8.8.8.8: bytes=32 time=58ms TTL=113\nReply from 8.8.8.8: bytes=32 time=63ms TTL=113\nReply from 8.8.8.8: bytes=32 time=60ms TTL=113\n\nPing statistics for 8.8.8.8:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 58ms, Maximum = 63ms, Average = 60ms\n",
+            "timestamp": "2025-04-23 00:38:14"
+        }
+    },
+    {
+        "timestamp": "2025-04-23 00:38:24",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to 8.8.8.8 over a maximum of 30 hops\nHop 1: 192.168.1.1 - *Timeout*\nHop 2: 100.84.0.1 - *Timeout*\nHop 3: 198.51.100.118 - *Timeout*\nHop 4: 198.51.100.117 - *Timeout*\nHop 5: 222.165.175.150 - *Timeout*\nHop 6: 222.165.175.145 - *Timeout*\nHop 7: 103.87.125.129 - *Timeout*\nHop 8: 103.87.124.93 - *Timeout*\nHop 9: 103.87.124.74 - *Timeout*\nHop 10: 74.125.48.62 - *Timeout*\nHop 11: 142.250.238.117 - *Timeout*\nHop 12: 72.14.232.101 - *Timeout*\nHop 13: 8.8.8.8 - *Timeout*",
+            "timestamp": "2025-04-23 00:38:24"
+        }
+    },
+    {
+        "timestamp": "2025-04-23 00:39:23",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-23 00:39:23"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:20:31",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 15:20:31"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:20:44",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-26 15:20:44"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:20:44",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "157.240.13.35",
+            "timestamp": "2025-04-26 15:20:44"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:20:44",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.53 seconds",
+            "timestamp": "2025-04-26 15:20:44"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:20:45",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Feb  2 00:00:00 2025 GMT\nValid Until: May  3 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-26 15:20:45"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:20:45",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  157.240.13.35\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f10c:283:face:b00c:0:25de",
+            "timestamp": "2025-04-26 15:20:45"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:20:45",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-26 15:20:45"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:20:45",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.153\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f10c:283:face:b00c:0:25de\n\t  157.240.13.35\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-26 15:20:45"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:20:48",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [157.240.13.35] with 32 bytes of data:\nReply from 157.240.13.35: bytes=32 time=68ms TTL=55\nReply from 157.240.13.35: bytes=32 time=57ms TTL=55\nReply from 157.240.13.35: bytes=32 time=87ms TTL=55\nReply from 157.240.13.35: bytes=32 time=69ms TTL=55\n\nPing statistics for 157.240.13.35:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 57ms, Maximum = 87ms, Average = 70ms\n",
+            "timestamp": "2025-04-26 15:20:48"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:21:18",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to star-mini.c10r.facebook.com [157.240.13.35]\nHop 1: 192.168.43.153 - *Timeout*\nHop 2: *Timeout*\nHop 3: 172.22.207.2 - *Timeout*\nHop 4: 172.22.196.57 - *Timeout*\nHop 5: *Timeout*\nHop 6: 172.22.65.90 - *Timeout*\nHop 7: 27.111.228.94 - *Timeout*\nHop 8: 129.134.99.94 - *Timeout*\nHop 9: 157.240.61.245 - *Timeout*\nHop 10: 129.134.92.38 - *Timeout*\nHop 11: 157.240.13.35 - *Timeout*",
+            "timestamp": "2025-04-26 15:21:18"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:21:25",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 15:21:25"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:58:41",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 15:58:41"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 15:58:42",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 15:58:42"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 16:21:27",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 16:21:27"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 16:27:27",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 16:27:27"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 16:41:08",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 16:41:08"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 16:41:09",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 16:41:09"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:13:52",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 17:13:52"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:14:02",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-26 17:14:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:14:02",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "57.144.152.1",
+            "timestamp": "2025-04-26 17:14:02"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:14:03",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 1.09 seconds",
+            "timestamp": "2025-04-26 17:14:03"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:14:04",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Feb  2 00:00:00 2025 GMT\nValid Until: May  3 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-26 17:14:04"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:14:04",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  57.144.152.1\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f34c:1:face:b00c:0:25de",
+            "timestamp": "2025-04-26 17:14:04"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:14:04",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-26 17:14:04"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:14:04",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.153\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f34c:1:face:b00c:0:25de\n\t  57.144.152.1\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-26 17:14:04"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:14:07",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [57.144.152.1] with 32 bytes of data:\nReply from 57.144.152.1: bytes=32 time=60ms TTL=55\nReply from 57.144.152.1: bytes=32 time=87ms TTL=55\nReply from 57.144.152.1: bytes=32 time=78ms TTL=55\nReply from 57.144.152.1: bytes=32 time=71ms TTL=55\n\nPing statistics for 57.144.152.1:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 60ms, Maximum = 87ms, Average = 74ms\n",
+            "timestamp": "2025-04-26 17:14:07"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:14:37",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to star-mini.c10r.facebook.com [57.144.152.1]\nHop 1: 192.168.43.153 - *Timeout*\nHop 2: *Timeout*\nHop 3: 172.22.207.2 - *Timeout*\nHop 4: 172.22.196.57 - *Timeout*\nHop 5: *Timeout*\nHop 6: 172.22.65.90 - *Timeout*\nHop 7: 27.111.228.94 - *Timeout*\nHop 8: 129.134.99.94 - *Timeout*\nHop 9: 129.134.94.86 - *Timeout*\nHop 10: 129.134.81.210 - *Timeout*\nHop 11: 57.144.152.1 - *Timeout*",
+            "timestamp": "2025-04-26 17:14:37"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:15:27",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 17:15:27"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:24:41",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 17:24:41"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:24:56",
+        "action_type": "analysis_started",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-26 17:24:56"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:24:56",
+        "action_type": "ip_resolved",
+        "details": {
+            "url": "www.facebook.com",
+            "ip_address": "57.144.152.1",
+            "timestamp": "2025-04-26 17:24:56"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:24:57",
+        "action_type": "status_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "status_info": "Status Code: 200\nResponse Time: 0.51 seconds",
+            "timestamp": "2025-04-26 17:24:57"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:24:57",
+        "action_type": "ssl_check_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "ssl_info": "SSL Certificate Info:\nIssuer: {'countryName': 'US', 'organizationName': 'DigiCert Inc', 'organizationalUnitName': 'www.digicert.com', 'commonName': 'DigiCert SHA2 High Assurance Server CA'}\nValid From: Feb  2 00:00:00 2025 GMT\nValid Until: May  3 23:59:59 2025 GMT\n",
+            "timestamp": "2025-04-26 17:24:57"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:24:57",
+        "action_type": "dns_records_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "dns_records": "\nA Records:\n  57.144.152.1\n\nTXT Records:\n  \"v=spf1 a ~all\"\n\nAAAA Records:\n  2a03:2880:f34c:1:face:b00c:0:25de",
+            "timestamp": "2025-04-26 17:24:57"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:24:57",
+        "action_type": "analysis_complete",
+        "details": {
+            "url": "www.facebook.com",
+            "timestamp": "2025-04-26 17:24:57"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:24:57",
+        "action_type": "dns_lookup_complete",
+        "details": {
+            "output_type": "dns",
+            "result": "Server:  UnKnown\nAddress:  192.168.43.153\n\nName:    star-mini.c10r.facebook.com\nAddresses:  2a03:2880:f34c:1:face:b00c:0:25de\n\t  57.144.152.1\nAliases:  www.facebook.com\n\n",
+            "timestamp": "2025-04-26 17:24:57"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:25:00",
+        "action_type": "ping_complete",
+        "details": {
+            "output_type": "ping",
+            "result": "\nPinging star-mini.c10r.facebook.com [57.144.152.1] with 32 bytes of data:\nReply from 57.144.152.1: bytes=32 time=66ms TTL=55\nReply from 57.144.152.1: bytes=32 time=82ms TTL=55\nReply from 57.144.152.1: bytes=32 time=73ms TTL=55\nReply from 57.144.152.1: bytes=32 time=80ms TTL=55\n\nPing statistics for 57.144.152.1:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 66ms, Maximum = 82ms, Average = 75ms\n",
+            "timestamp": "2025-04-26 17:25:00"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:25:30",
+        "action_type": "traceroute_complete",
+        "details": {
+            "output_type": "traceroute",
+            "result": "Tracing route to star-mini.c10r.facebook.com [57.144.152.1]\nHop 1: 192.168.43.153 - *Timeout*\nHop 2: *Timeout*\nHop 3: 172.22.207.2 - *Timeout*\nHop 4: 172.22.196.57 - *Timeout*\nHop 5: *Timeout*\nHop 6: 172.22.65.90 - *Timeout*\nHop 7: 27.111.228.94 - *Timeout*\nHop 8: 129.134.99.94 - *Timeout*\nHop 9: 129.134.94.86 - *Timeout*\nHop 10: 129.134.81.210 - *Timeout*\nHop 11: 57.144.152.1 - *Timeout*",
+            "timestamp": "2025-04-26 17:25:30"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 17:25:33",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 17:25:33"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 18:20:52",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 18:20:52"
+        }
+    },
+    {
+        "timestamp": "2025-04-26 18:20:53",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Troubleshooting",
+            "timestamp": "2025-04-26 18:20:53"
+        }
+    }
+]

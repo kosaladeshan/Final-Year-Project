@@ -1,0 +1,287 @@
+[
+    {
+        "timestamp": "2025-04-06 17:05:54",
+        "action_type": "report_generation_start",
+        "details": {
+            "timestamp": "2025-04-06 17:05:54"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:05:54",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Administrator Report Generator",
+            "timestamp": "2025-04-06 17:05:54"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:06:19",
+        "action_type": "packet_analysis_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:06:19",
+            "file_path": "data_temp\\real_time_packet.json",
+            "data_size": 836
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:06:19",
+        "action_type": "wifi_scanner_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:06:19",
+            "file_path": "data_temp\\wifi_signals_details.json",
+            "data_size": 1230
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:06:19",
+        "action_type": "network_device_scan_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:06:19",
+            "file_path": "data_temp\\network_device_and_vulnerbility_scan.json",
+            "data_size": 1319
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:06:19",
+        "action_type": "monitoring_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:06:19",
+            "file_path": "data_temp\\monitoring_dashboard.json",
+            "data_size": 1540
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:06:19",
+        "action_type": "network_troubleshoot_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:06:19",
+            "file_path": "data_temp\\network_troubleshoot_history.json",
+            "data_size": 27229
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:06:24",
+        "action_type": "report_generation_start",
+        "details": {
+            "timestamp": "2025-04-06 17:06:24"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:06:49",
+        "action_type": "packet_analysis_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:06:49",
+            "file_path": "data_temp\\real_time_packet.json",
+            "data_size": 836
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:06:49",
+        "action_type": "wifi_scanner_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:06:49",
+            "file_path": "data_temp\\wifi_signals_details.json",
+            "data_size": 1230
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:06:49",
+        "action_type": "network_device_scan_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:06:49",
+            "file_path": "data_temp\\network_device_and_vulnerbility_scan.json",
+            "data_size": 1319
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:06:49",
+        "action_type": "monitoring_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:06:49",
+            "file_path": "data_temp\\monitoring_dashboard.json",
+            "data_size": 1540
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:06:49",
+        "action_type": "network_troubleshoot_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:06:49",
+            "file_path": "data_temp\\network_troubleshoot_history.json",
+            "data_size": 27229
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:14:51",
+        "action_type": "report_generation_start",
+        "details": {
+            "timestamp": "2025-04-06 17:14:51"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:14:51",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Administrator Report Generator",
+            "timestamp": "2025-04-06 17:14:51"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:14:57",
+        "action_type": "application_close",
+        "details": {
+            "window_title": "Network Administrator Report Generator",
+            "timestamp": "2025-04-06 17:14:57"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:36:36",
+        "action_type": "report_generation_start",
+        "details": {
+            "timestamp": "2025-04-06 17:36:36"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:36:36",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Administrator Report Generator",
+            "timestamp": "2025-04-06 17:36:36"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:37:02",
+        "action_type": "packet_analysis_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:37:02",
+            "file_path": "data_temp\\real_time_packet.json",
+            "data_size": 836
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:37:02",
+        "action_type": "wifi_scanner_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:37:02",
+            "file_path": "data_temp\\wifi_signals_details.json",
+            "data_size": 1230
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:37:02",
+        "action_type": "network_device_scan_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:37:02",
+            "file_path": "data_temp\\network_device_and_vulnerbility_scan.json",
+            "data_size": 1319
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:37:02",
+        "action_type": "monitoring_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:37:02",
+            "file_path": "data_temp\\monitoring_dashboard.json",
+            "data_size": 1540
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:37:02",
+        "action_type": "network_troubleshoot_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:37:02",
+            "file_path": "data_temp\\network_troubleshoot_history.json",
+            "data_size": 31481
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:37:02",
+        "action_type": "error_occurred",
+        "details": {
+            "timestamp": "2025-04-06 17:37:02",
+            "error_message": "Failed to update display: 'list' object has no attribute 'get'"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:37:06",
+        "action_type": "report_generation_start",
+        "details": {
+            "timestamp": "2025-04-06 17:37:06"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:38:24",
+        "action_type": "report_generation_start",
+        "details": {
+            "timestamp": "2025-04-06 17:38:24"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:38:24",
+        "action_type": "application_start",
+        "details": {
+            "window_title": "Network Administrator Report Generator",
+            "timestamp": "2025-04-06 17:38:24"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:38:49",
+        "action_type": "packet_analysis_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:38:49",
+            "file_path": "data_temp\\real_time_packet.json",
+            "data_size": 836
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:38:49",
+        "action_type": "wifi_scanner_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:38:49",
+            "file_path": "data_temp\\wifi_signals_details.json",
+            "data_size": 1230
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:38:49",
+        "action_type": "network_device_scan_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:38:49",
+            "file_path": "data_temp\\network_device_and_vulnerbility_scan.json",
+            "data_size": 1319
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:38:49",
+        "action_type": "monitoring_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:38:49",
+            "file_path": "data_temp\\monitoring_dashboard.json",
+            "data_size": 1540
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:38:49",
+        "action_type": "network_troubleshoot_data_loaded",
+        "details": {
+            "timestamp": "2025-04-06 17:38:49",
+            "file_path": "data_temp\\network_troubleshoot_history.json",
+            "data_size": 31481
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:38:49",
+        "action_type": "error_occurred",
+        "details": {
+            "timestamp": "2025-04-06 17:38:49",
+            "error_message": "Failed to update display: 'list' object has no attribute 'get'"
+        }
+    },
+    {
+        "timestamp": "2025-04-06 17:38:54",
+        "action_type": "report_generation_start",
+        "details": {
+            "timestamp": "2025-04-06 17:38:54"
+        }
+    }
+]

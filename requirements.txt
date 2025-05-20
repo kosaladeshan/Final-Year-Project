@@ -1,0 +1,13 @@
+python-nmap==0.7.1
+psutil==5.9.8
+PyQt6==6.4.2
+PyQt6-Qt6==6.4.2
+PyQt6-sip==13.4.1
+matplotlib==3.10.1
+numpy==2.2.4
+scapy==2.5.0
+pandas==2.2.1
+requests==2.32.3
+python-whois==0.9.5
+dnspython==2.7.0
+netifaces==0.11.0 

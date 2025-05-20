@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+# Environment
+.env
+.venv
+env/
+
+# VS Code
+.vscode/
+
+# Temporary files
+data_temp/*
+!data_temp/.gitkeep
+
+# Sensitive information
+SMS gateway/secret.py
+**/secret.py
+**/*.pyc
+__pycache__/
+**/__pycache__/
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db

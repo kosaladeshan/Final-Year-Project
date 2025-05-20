@@ -1,0 +1,56 @@
+{
+    "enabled": false,
+    "phone_number": "+94718830879",
+    "alert_history": [
+        {
+            "timestamp": "2025-05-17 20:59:31",
+            "message": "ALERT: Network anomaly detected at 2025-05-17 20:59:28!\nAnomaly Score: 5.29/10\nIssues detected:\n- Throughput: 111.08 Mbps (CRITICAL)\n- Packet Loss: 9.11% (CRITICAL)\n- Bandwidth: 56.22 Mbps (CRITICAL)\n- Network Speed: 459.30 Mbps (CRITICAL)\n- Error Rate: 1.01% (WARNING)\n",
+            "phone_number": "+94718830879"
+        },
+        {
+            "timestamp": "2025-05-08 13:00:41",
+            "message": "ALERT: Network anomaly detected at 2025-05-08 13:00:40!\nAnomaly Score: 5.40/10\nIssues detected:\n- Latency: 64.66 ms (WARNING)\n- Throughput: 28.20 Mbps (CRITICAL)\n- Packet Loss: 10.00% (CRITICAL)\n- Jitter: 8.98 ms (CRITICAL)\n- Network Speed: 415.52 Mbps (CRITICAL)\n",
+            "phone_number": "+94718830879"
+        },
+        {
+            "timestamp": "2025-05-08 12:58:00",
+            "message": "ALERT: Network anomaly detected at 2025-05-08 12:57:59!\nAnomaly Score: 4.65/10\nIssues detected:\n- Latency: 126.51 ms (CRITICAL)\n- Throughput: 161.34 Mbps (CRITICAL)\n- Bandwidth: 199.17 Mbps (CRITICAL)\n- Network Speed: 291.87 Mbps (CRITICAL)\n",
+            "phone_number": "+94718830879"
+        },
+        {
+            "timestamp": "2025-05-08 12:56:48",
+            "message": "TEST ALERT: Network anomaly detected at 2025-05-08 12:56:46!\nAnomaly Score: 8.75/10\nIssues detected:\n- Latency: 120.45 ms (CRITICAL)\n- Packet Loss: 6.32% (CRITICAL)\n- Jitter: 8.15 ms (WARNING)\n- Throughput: 450.20 Mbps (WARNING)",
+            "phone_number": "+94718830879"
+        },
+        {
+            "timestamp": "2025-05-08 12:56:21",
+            "message": "ALERT: Network anomaly detected at 2025-05-08 12:56:20!\nAnomaly Score: 4.65/10\nIssues detected:\n- Latency: 126.51 ms (CRITICAL)\n- Throughput: 161.34 Mbps (CRITICAL)\n- Bandwidth: 199.17 Mbps (CRITICAL)\n- Network Speed: 291.87 Mbps (CRITICAL)\n",
+            "phone_number": "+94718830879"
+        },
+        {
+            "timestamp": "2025-05-08 12:43:40",
+            "message": "TEST ALERT: Network anomaly detected at 2025-05-08 12:43:39!\nAnomaly Score: 8.75/10\nIssues detected:\n- Latency: 120.45 ms (CRITICAL)\n- Packet Loss: 6.32% (CRITICAL)\n- Jitter: 8.15 ms (WARNING)\n- Throughput: 450.20 Mbps (WARNING)",
+            "phone_number": "+94718830879"
+        },
+        {
+            "timestamp": "2025-04-27 09:39:45",
+            "message": "ALERT: Network anomaly detected at 2025-04-27 09:39:44!\nAnomaly Score: 4.65/10\nIssues detected:\n- Latency: 126.51 ms (CRITICAL)\n- Throughput: 161.34 Mbps (CRITICAL)\n- Bandwidth: 199.17 Mbps (CRITICAL)\n- Network Speed: 291.87 Mbps (CRITICAL)\n",
+            "phone_number": "+94718830879"
+        },
+        {
+            "timestamp": "2025-04-27 09:39:03",
+            "message": "TEST ALERT: Network anomaly detected at 2025-04-27 09:39:01!\nAnomaly Score: 8.75/10\nIssues detected:\n- Latency: 120.45 ms (CRITICAL)\n- Packet Loss: 6.32% (CRITICAL)\n- Jitter: 8.15 ms (WARNING)\n- Throughput: 450.20 Mbps (WARNING)",
+            "phone_number": "+94718830879"
+        },
+        {
+            "timestamp": "2025-04-27 09:38:27",
+            "message": "TEST ALERT: Network anomaly detected at 2025-04-27 09:38:26!\nAnomaly Score: 8.75/10\nIssues detected:\n- Latency: 120.45 ms (CRITICAL)\n- Packet Loss: 6.32% (CRITICAL)\n- Jitter: 8.15 ms (WARNING)\n- Throughput: 450.20 Mbps (WARNING)",
+            "phone_number": "+94718830879"
+        },
+        {
+            "timestamp": "2025-04-27 09:37:55",
+            "message": "ALERT: Network anomaly detected at 2025-04-27 09:37:53!\nAnomaly Score: 4.65/10\nIssues detected:\n- Latency: 126.51 ms (CRITICAL)\n- Throughput: 161.34 Mbps (CRITICAL)\n- Bandwidth: 199.17 Mbps (CRITICAL)\n- Network Speed: 291.87 Mbps (CRITICAL)\n",
+            "phone_number": "+94718830879"
+        }
+    ]
+}
