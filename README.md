@@ -102,7 +102,7 @@ The tool leverages several cutting-edge technologies:
 - Python 3.9 or higher
 - Administrator privileges (required for packet capture)
 - Minimum 4GB RAM
-- 500MB free disk space
+- 1GB free disk space
 
 ## Installation
 
